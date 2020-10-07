@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/btn_pindah_tanpa_data2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINDAH ACTIVITY 3"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ACTIVITY 2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/tv_intitusi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Institusi :"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
